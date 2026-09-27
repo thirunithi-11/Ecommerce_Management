@@ -12,7 +12,7 @@ public class DBConnection {
             con = DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/ecommerce_management",
                     "root",
-                    "Thiru@2002"
+                    "Your_Password"
             );
 
             System.out.println("Database Connected Successfully!");
